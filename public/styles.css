@@ -1,0 +1,38 @@
+#AppContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#SubContainer {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#leftContainer {
+  width: 640px;
+  margin: 0 1rem 0 0;
+}
+
+#rightContainer {
+  width: 340px;
+  margin: 0 0 0 1rem;
+}
+
+#Header {
+  display: flex;
+  justify-content: center;
+}
+
+#modal {
+  z-index: 999;
+}
+
+#location {
+  margin-top: 8px;
+}
+
+.headerPics {
+  display: flex;
+}
